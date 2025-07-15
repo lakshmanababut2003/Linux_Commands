@@ -1,0 +1,74 @@
+📂 File and Directory Commands
+Command	Description
+ls	List files and directories
+pwd	Print working directory
+cd	Change directory
+mkdir	Create a directory
+rmdir	Remove an empty directory
+rm	Remove files or directories (rm -r for recursive)
+cp	Copy files or directories
+mv	Move or rename files and directories
+touch	Create an empty file
+cat	Display file content
+more / less	View file content page by page
+find	Search for files and directories
+
+🛠️ File Permissions and Ownership
+Command	Description
+chmod	Change file permissions
+chown	Change file owner and group
+chgrp	Change group ownership
+
+🧭 System Information
+Command	Description
+uname -a	Show system info
+df -h	Disk space usage
+du -sh <dir>	Disk usage of a directory
+top	Real-time system processes
+free -h	Memory usage
+uptime	System uptime
+
+👥 User and Process Management
+Command	Description
+ps	Show running processes
+kill	Kill a process by PID
+sudo	Run a command as superuser
+whoami	Show current user
+adduser	Add a user
+passwd	Change user password
+
+🌐 Networking
+Command	Description
+ifconfig or ip addr	Show network interfaces
+ping	Check connectivity
+netstat -tuln	Network connections
+ssh	Connect to remote machine
+scp	Secure copy files over SSH
+
+📦 Package Management
+(depending on distribution)
+
+Debian/Ubuntu:
+
+apt update – Update package index
+
+apt upgrade – Upgrade packages
+
+apt install <package> – Install package
+
+apt remove <package> – Remove package
+
+Red Hat/CentOS:
+
+yum install <package>
+
+yum update
+
+yum remove <package>
+
+📄 Other Useful Commands
+Command	Description
+history	Show command history
+clear	Clear the terminal
+man <command>	Show manual page
+echo	Display a line of text
